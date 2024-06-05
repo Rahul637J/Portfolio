@@ -257,7 +257,11 @@ section{
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    width: fit-content;
+    /* width: fit-content; */
+}
+
+#about .text-container p{
+    line-height: 1.5;
 }
 
 .about-details-container{
@@ -267,6 +271,7 @@ section{
 
 .about-container,.about-details-container{
     display: flex;
+    justify-content: center;
     gap: 2rem;
 }
 
@@ -278,6 +283,7 @@ section{
    border: rgb(53,53,53)0.1rem solid;
    border-color: rgb(163,163,163);
    text-align: center;
+   align-items: center;
 }
 
 .about-pic{
@@ -334,7 +340,6 @@ section{
     flex-direction: row;
     gap: 2rem;
     justify-content: space-around;
-    width: fit-content;
 }
 
 #skills .about-container{
